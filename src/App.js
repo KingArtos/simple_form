@@ -13,7 +13,7 @@ class App extends Component {
         <Typography variant="h3" component="h1" align="center">
           Formulario de cadastro
         </Typography>
-        <RegisterForm sendForm={printMe} validateCpf={validateCpf} dname="Artur" />
+        <RegisterForm sendForm={printMe} validateCpf={validateCpf} />
       </Container>
     );
   }
