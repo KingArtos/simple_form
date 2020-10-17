@@ -7,9 +7,6 @@ You could use docker to run this project:
 docker-compose build
 docker-compose up -d
 ```
-docker build -t sample:dev .
-docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm sample:dev
-```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
